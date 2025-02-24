@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <style>
+        .navbar{
+            display:inline-flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+        .brand-logo img{
+            height:100px;
+        }
+        ul{
+            display:flex;
+            list-style: none;
+        }
+        ul li{
+            margin:0 20px
+        }
+        .Hero{
+            height:100vh;
+            background:url("Travel.jpg") center /cover no-repeat;
+        }
+        .paris img{
+            height:150px;
+        }
+        .Bali img{
+            height:150px;
+        }
+        .social-media{
+            display:flex;
+            justify-content: space-between;
+            margin:0 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="TravelAgency.html" class="brand-logo">
+                <img src="logo.jpg" alt="Brand Logo">
+            </a>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#Destinations">Destinations</a>
+                </li>
+                <li>
+                    <a href="#Packages">Packages</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="Hero">
+        <div class="Hero-section">
+            <h1>Explore the World with Us</h1>
+            <h2>
+                Book your dream vacation today
+            </h2>
+        </div>
+    </section>
+    <section class="Destinations" id="Destinations">
+        <h2>
+            Featured-Destinations
+        </h2>
+        <article class="paris">
+            <h3>Paris, France</h3>
+            <img src="EiffelTower.jpg" alt="EiffelTower">
+            <p>Paris is a popular tourist destination located in France with one of center of attraction as Eiffel Tower</p>
+
+        </article>
+        <article class="Bali">
+            <h3>Bali</h3>
+            <img src="Bali.jpg" alt="Bali">
+            <p>Bali is a popular tourist destination specially known for its beaches</p>
+        </article>
+    </section>
+    <section class="Packages" id="Packages">
+
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="copyright">
+                <p>&copy; 2025 Travel Agency. All rights reserved.</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            </div>
+            <div class="contact-info" id="Contact">
+                <p><strong>Contact Us</strong></p>
+                <p>Address: 123 Travel St, Some City, Some Country</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Email: contact@travelagency.com</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

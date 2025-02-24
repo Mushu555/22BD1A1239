@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <style>
+        .navbar {
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: aqua;
+        }
+        .navbar ul {
+            display: flex;
+            list-style: none;
+        }
+        ul li {
+            margin: 0 50px;
+        }
+        /* .sp {
+            list-style: lower-roman; 
+        }
+        .sp li {
+            display: block;
+        } */
+         ul{
+            list-style: lower-roman;
+            display:block;
+         }
+         .table
+         {
+            background-color:beige;
+         }
+         #Menu h1{
+            font-family:Arial, Helvetica, sans-serif ;
+            color:brown;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#" target="_blank">Home</a></li>
+                <li><a href="#Menu" target="_blank">Menu</a></li>
+                <li><a href="#Contact" target="_blank">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="specialties">
+        <h2>Restaurant specialties</h2>
+        <ul class="sp">
+            <li>Kunafa</li>
+            <li>Umm Ali</li>
+            <li>Chicken Biryani</li>
+            <li>Pasta</li>
+            <li>Tandoori Chicken</li>
+        </ul>
+    </div>
+    <section id="Menu">
+        <h1>Menu</h1>
+        <table class="table" border="10px">
+            <thead>
+                <th>
+                    <tr>
+                        <td>Dish Name</td>
+                        <td>Price</td>
+                        <td>Description</td>
+                    </tr>
+                </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Biryani</td>
+                    <td>$200</td>
+                    <td>Authentic Hyderbadi Biryani</td>
+                </tr>
+                <tr>
+                    <td>Haleem</td>
+                    <td>$250</td>
+                    <td>world famous Pista House haleem</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
